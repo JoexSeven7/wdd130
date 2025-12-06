@@ -512,6 +512,28 @@ button[type="submit"]:hover {
     margin-top: 20px;
 }
 
+/* Basic figure styles for about page gallery */
+figure {
+    margin: 0;
+    width: 18%; 
+}
+
+figure img {
+    width: 100%;
+    height: auto;
+    background-color: #e0e0e0; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px var(--shadow-light);
+}
+
+figcaption {
+    margin-top: 5px;
+    font-size: 0.9rem;
+    text-align: center;
+    color: var(--secondary-color);
+    font-weight: bold;
+}
+
 /* Adventures section for about page */
 .adventures {
     margin: 2rem 0;
