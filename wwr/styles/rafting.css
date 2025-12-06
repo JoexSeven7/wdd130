@@ -109,7 +109,44 @@ footer {
     display: inline-block;
 }
 
-/* Hero Section */
+/* About Page Hero (class) - Different from home page hero (id) */
+.hero {
+    position: relative;
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20px;
+    width: 100%;
+    padding: 16px;
+    text-align: center;
+    opacity: 0.7;
+    background-color: var(--secondary-color);
+    color: rgb(255, 255, 255);
+}
+
+.hero article{
+    position: absolute;
+    background-color: rgba(119, 104, 39, 0.8);
+    color: antiquewhite;
+    bottom: 10px;
+    border-radius: 5px;
+}
+
+.hero article img {
+    float: right;
+    width: 200px;
+    margin: 10px;
+}
+
+/* Home Page Hero Section (id) */
 #hero {
     display: grid;
     grid-template-columns: 1fr;
@@ -473,4 +510,15 @@ button[type="submit"]:hover {
     justify-content: space-between; 
     gap: 10px;
     margin-top: 20px;
+}
+
+/* Adventures section for about page */
+.adventures {
+    margin: 2rem 0;
+}
+
+.adventures h2 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--secondary-color);
 }
